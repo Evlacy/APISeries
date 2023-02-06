@@ -91,7 +91,7 @@ namespace APIRestV1.Controllers.Tests
 
             Assert.IsInstanceOfType(result.Result, typeof(NotFoundResult), "Pas un NotFoundResult");
             Assert.IsNull(result.Result.Value, "Pas de Serie");
-        }
+        } 
 
         [TestMethod]
         public void Delete_NotOk_ReturnsNotFound()
